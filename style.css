@@ -1,0 +1,62 @@
+/* Turn your header element into a splash page that takes up 100vw and 100vh. (Users should be able to scroll down to see the rest of your content.)
+All headings should be centered.
+Pick two fonts from Google Fonts. Apply one of them to all the heading elements and the other to all non-heading text.
+Your name should have a font size of 2em.
+The <aside> should be 35vw wide.
+The entire page should have a background color of #494949
+All text should be #f4c20c.
+The text in your footer should be centered. */
+header {
+    height: 50vw;
+    width: 50vh;
+    text-align: center
+    
+}
+ h1 { 
+     font-family: 'Aguafina Script';
+     text-align: center;
+     color: #f4c20c;
+    }
+ h2 {
+     font-family: 'Aguafina Script'; 
+     text-align: center;
+     color: #f4c20c;
+
+    }
+ h3 {
+     font-family: 'Aguafina Script';
+     text-align: center;
+     color: #f4c20c
+    }
+ p {
+    font-family: 'Indie Flower'; 
+    text-align: center;
+    color: #f4c20c
+}
+aside {width: 35vw;
+}
+body {background-color:#494949;
+}
+img { text-align: center;
+}
+aside {text-align: center;}
+/* Continue to build your personal website, this time focusing on layout. Here's an example of the finished product. Yours doesn't have to look exactly like this- it's just to give you a starting point.
+
+In your HTML, add a new div around your name and job title. This new div should be 30vw wide with 4rem of padding and should be centered both vertically and horizontally inside the header element. (Hint: flexbox is great for centering!)
+Use flexbox to create a two-column layout for the page content:
+The left-hand column should be your bio aside element.
+The right-hand column should contain your tech stack section and your work experience section. These sections should be stacked on top of each other.
+Each column should have a padding of 1rem.
+You will need to add new elements to your HTML to make flexbox work correctly.
+Each article element in your work experience section should have a top margin of 2em.
+Your footer element should have a top padding of 15vh and a height of 20vh.
+Once you've followed the steps above, feel free to change anything! */
+.flex-container { width: 30vw;
+      padding: 4rem;
+      align: center;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+}
+
